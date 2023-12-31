@@ -1,0 +1,8 @@
+@font-face {
+  font-family: customFont;
+  src: url("../fonts/VLBOOSTERNEXTFY-BLACK.OTF");
+}
+
+* {
+  font-family: customFont;
+}
