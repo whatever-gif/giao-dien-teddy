@@ -83,6 +83,10 @@ input:focus {
   gap: 10px;
 }
 
+.product-item:hover img {
+  box-shadow: 0 4px 6px -1px rgb(241, 95, 142), 0 2px 4px -2px rgb(241, 95, 142);
+}
+
 .product-item img {
   border-radius: 10px;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
@@ -105,4 +109,223 @@ input:focus {
   border: 1px solid #f15f8e;
   padding: 10px 20px;
   border-radius: 5px;
+}
+
+.more:hover {
+  color: #f15f8e;
+}
+
+.noel {
+  background-image: url(../assets/banner/giangsinh.jpg);
+  margin: 20px -90px;
+  padding: 10px 90px;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.noel .content {
+  color: #ead4ff;
+}
+
+.noel .price {
+  color: #ffecf2;
+}
+
+.noel .title {
+  color: #ffecf2;
+}
+
+.noel .more {
+  color: #ffecf2;
+  border-color: #ffecf2;
+}
+
+.noel .more:hover {
+  background-color: #ffecf2;
+  color: #f15f8e;
+}
+
+.peace {
+  background-image: url("../assets/banner/peace.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px -90px;
+  padding: 10px 90px;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.video-image {
+  border-radius: 10px;
+  overflow: hidden;
+  border: 5px solid #8357ae;
+  height: 250px;
+  position: relative;
+}
+
+.video-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.video-content {
+  color: #f15f8e;
+}
+
+.video-more {
+  background-color: #8357ae;
+  border-color: transparent;
+  color: #fff;
+}
+
+.video-more:hover {
+  color: #fff;
+  background-color: #f15f8e;
+}
+
+.video-item {
+  position: relative;
+}
+
+.video-item:hover .play-btn {
+  display: block;
+}
+
+.video-item:hover .video-image {
+  box-shadow: 0 4px 6px -1px rgb(192, 93, 160), 0 2px 4px -2px rgb(192, 93, 160);
+}
+
+.play-btn {
+  position: absolute;
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  left: calc(50% - 25px);
+  top: calc(50% - 50px);
+  display: none;
+  transition: linear 0.5s;
+}
+
+.story-item {
+  background-color: #c69acb;
+  border-radius: 10px;
+  /* box-shadow: 0 4px 6px -1px rgb(131, 87, 174), 0 2px 4px -2px rgb(131, 87, 174); */
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  cursor: pointer;
+}
+
+.story-item:hover {
+  box-shadow: 0 4px 6px -1px rgb(131, 87, 174), 0 2px 4px -2px rgb(131, 87, 174);
+}
+
+.story-content {
+  padding: 0 10px;
+  width: calc(100% - 200px);
+  color: #8357ae;
+  font-size: 18px;
+}
+
+.story-image {
+  background-color: #f15f8e;
+  width: 200px !important;
+  height: 150px;
+  overflow: hidden;
+}
+
+.story-image img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #c69acb;
+  margin: 0px -90px;
+  padding: 10px 90px;
+  margin-top: 100px;
+  overflow-x: hidden;
+  color: #fff;
+}
+
+.footer-title {
+  text-transform: uppercase;
+  color: #f15f8e;
+  background-color: #4f2775;
+  border-radius: 50px;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.support-item {
+  position: fixed;
+  background-color: #f15f8e;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 100;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.support-item:hover {
+  box-shadow: 0 4px 6px -1px rgb(192, 93, 160), 0 2px 4px -2px rgb(192, 93, 160);
+}
+
+.support-item:hover i {
+  font-size: 30px;
+}
+
+.mess {
+  font-size: 20px;
+  right: 10px;
+  bottom: 70px;
+}
+
+.map {
+  font-size: 20px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.header-fixed {
+  position: fixed;
+  background-color: #ead4ff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: none;
+  z-index: 1000;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.header-fixed .search-box {
+  background-color: #fff;
+  height: 35px;
+}
+
+.header-fixed input {
+  width: 300px;
+  background-color: #fff;
+}
+
+.header-fixed .nav-item-fixed {
+  color: #f15f8e;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.header-fixed .nav-item-fixed:hover {
+  background-color: #fff;
 }
